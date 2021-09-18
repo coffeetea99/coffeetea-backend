@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {  
+    "target": "es5", 
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "gen"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
