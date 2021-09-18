@@ -13,4 +13,16 @@ app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
 
-app.listen(app.get('port'));
+app.listen(app.get('port'), async () => {
+  try {
+    await initialize();
+  } catch(err) {
+    console.error("Error occurred on initialization");
+    console.error(err);
+  }
+});
+
+async function initialize() {
+  console.log("Starting initialization");
+  console.log("Finished initialization");
+}
