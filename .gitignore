@@ -12,3 +12,6 @@
 
 # public files
 /public
+
+# sqlite3
+sqlite3.db
