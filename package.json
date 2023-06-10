@@ -1,10 +1,14 @@
 {
   "name": "coffeetea-backend",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "version": "1.0.0",
+  "description": "backend server of coffeetea's homepage",
+  "author": "Jinje Han <coffeetea99iro@gmail.com>",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coffeetea99/coffeetea-backend"
+  },
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
